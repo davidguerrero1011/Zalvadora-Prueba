@@ -1,0 +1,54 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Cache y logs
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+# Archivos de sesión
+application/sessions/*
+!application/sessions/index.html
+!application/sessions/.htaccess
+
+# Archivos subidos por usuarios
+uploads/*
+!uploads/index.html
+!uploads/.htaccess
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencias (si usas Composer)
+vendor/
+composer.lock
+
+# Node modules (si usas npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archivos de entorno
+.env
+.env.local
+.env.production
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Archivos de backup
+*.bak
+*.backup
+*.sql.gz
+*.sql.zip
